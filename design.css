@@ -1,0 +1,76 @@
+html {
+	
+	background-color: #e0f7fa;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+header {
+	background-image: url("assets/bikanel.jpg");
+	background-position: center;
+	width: auto;
+	height: 20vw;
+	justify-content: center;
+	color: white;
+	align-items: center;
+}
+
+header p, h2 {
+	padding-top: 5vw;
+}
+
+form {
+  background-color: #b3e5fc;
+}
+
+label {
+  padding-top: 2vw;
+}
+
+#characteristics p, figure {
+  display: inline-block;
+  color: gray;
+  }
+
+figure {
+  display: inline-block;
+}
+
+#language, #specials, #desc { color: gray;}
+
+textarea {
+  width: 65vw;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px inset;
+  text-align: center;
+  margin: 0 auto;
+}
+th {
+  background-color: pink;
+}
+
+
+footer {
+background-color: #8595aa;
+color: white;
+}
+footer a {
+  margin-top: 0;
+  padding: 0;
+  color: aqua;
+}
